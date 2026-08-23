@@ -155,7 +155,7 @@ aws eks update-kubeconfig \
 Deploy the retail application:
 
 ```bash
-./install-retail-apps.sh
+./05-v2.0.0-install-remote-helm-charts.sh
 ```
 
 Verify the workloads:
