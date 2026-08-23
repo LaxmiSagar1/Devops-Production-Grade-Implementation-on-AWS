@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: catalog-mysql
+spec:
+  type: ExternalName
+  externalName: mydb3.cc90w20acpzo.us-east-1.rds.amazonaws.com
+  ports:
+    - port: 3306
